@@ -36,8 +36,6 @@ export function get_file_data(modules: object) {
             })
     })
 
-    console.log(file_data)
-
     return {
         file_data,
         folder_names,

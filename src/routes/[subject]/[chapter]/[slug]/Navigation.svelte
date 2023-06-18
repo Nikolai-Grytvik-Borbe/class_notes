@@ -7,8 +7,8 @@
     export let subject: string;
 </script>
 
-<div class="bg-zinc-500 h-screen w-72">
-	<h1>{subject}</h1>
+<div class="bg-zinc-500 w-full h-full p-2">
+	<h1 class="">{subject}</h1>
 	<ol class="pl-2">
 		{#each files as chapter}
 			<li> 
